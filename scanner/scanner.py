@@ -8,6 +8,7 @@ from scanner.tokens import arithmetic_, datatypes_, keywords_, logical_, signs_,
 # character: 1 byte
 # real: 4 byte
 # string:‌ Array of characters
+<<<<<<< HEAD
 
 UNKNOWN, INTEGER, REAL, ID, CHAR, STRING, COMMENT = range(7)
 
@@ -104,3 +105,5 @@ class Scanner():
             self.prev_result = (result, t)
             return (prev_result, UNKNOWN)
         return (result, t)
+=======
+>>>>>>> 2ab1597b3fd6acec6c2588295d34cbfef579c90d
