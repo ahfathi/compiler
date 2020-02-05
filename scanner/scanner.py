@@ -8,5 +8,3 @@ from scanner.tokens import arithmetic_, datatypes_, keywords_, logical_, signs_,
 # character: 1 byte
 # real: 4 byte
 # string:‌ Array of characters
-
-
