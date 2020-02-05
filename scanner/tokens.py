@@ -1,3 +1,5 @@
+import string
+
 whitespaces_ = [
     '\n',
     '\t',
@@ -9,23 +11,28 @@ whitespaces_ = [
 ]
 
 keywords_ = [
+    'array',
+    'assign',
+    'boolean',
+    'break',
+    'begin',
+    'char',
+    'continue',
+    'do',
+    'else',
+    'end',
+    'false',
     'function',
     'procedure',
-    'begin',
-    'end',
-    'return',
     'if',
-    'then',
-    'else',
-    'while',
-    'do',
-    'and',
-    'or',
+    'integer',
     'of',
-    'break',
-    'assign',
-    'continue',
-    'var'
+    'real',
+    'return',
+    'string',
+    'true',
+    'while',
+    'var',
 ]
 
 arithmetic_ = [
@@ -78,3 +85,5 @@ digits_ = [
     '8',
     '9'
 ]
+
+letters_ = list(string.ascii_letters)

@@ -1,0 +1,10 @@
+hello 123.2 how are
+345 you -- baby 12
+
+12. .2 . 'b' "bitch"
+<-- many
+line
+comment
+-->
+
+[123:456] if (a <=b)
